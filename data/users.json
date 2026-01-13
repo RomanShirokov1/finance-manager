@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "login": "Р№С†Сѓ",
+      "passwordHash": "489cd5dbc708c7e541de4d7cd91ce6d0f1613573b7fc5b40d3942ccb9555cf35",
+      "wallet": {
+        "balance": 0.0,
+        "transactions": [
+          {
+            "id": "a0723c99-74a9-4202-9121-b26a66769dab",
+            "type": "INCOME",
+            "category": "50000",
+            "amount": 50000.0,
+            "description": "",
+            "date": "2026-01-13"
+          },
+          {
+            "id": "65b546e6-a4bb-4f23-a43a-25baff2eb6e2",
+            "type": "TRANSFER_OUT",
+            "category": "РџРµСЂРµРІРѕРґ",
+            "amount": 50000.0,
+            "description": "",
+            "date": "2026-01-13",
+            "counterparty": "asd"
+          }
+        ],
+        "budgets": {}
+      }
+    },
+    {
+      "login": "asd",
+      "passwordHash": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+      "wallet": {
+        "balance": 90000.0,
+        "transactions": [
+          {
+            "id": "35c2926f-d70f-4398-9c8f-2bf920691b6e",
+            "type": "INCOME",
+            "category": "Р—Рџ",
+            "amount": 100000.0,
+            "description": "РћР±С‹С‡РЅР°СЏ",
+            "date": "2026-01-13"
+          },
+          {
+            "id": "ce8814b9-a791-4ba8-9354-417f7b305bff",
+            "type": "INCOME",
+            "category": "Р—Рџ",
+            "amount": 10000.0,
+            "description": "РџСЂРµРјРёСЏ",
+            "date": "2025-12-12"
+          },
+          {
+            "id": "8cd1afb8-45a8-4691-9036-9cc16adb97d2",
+            "type": "EXPENSE",
+            "category": "РџСЂРѕРґСѓРєС‚С‹",
+            "amount": 20000.0,
+            "description": "",
+            "date": "2026-01-13"
+          },
+          {
+            "id": "4d57a362-669a-46ba-a878-38c3c90e5a8a",
+            "type": "EXPENSE",
+            "category": "РўРµСЃС‚",
+            "amount": 50000.0,
+            "description": "",
+            "date": "2026-01-13"
+          },
+          {
+            "id": "5965aa37-0aea-49e0-b6c4-d622b0a535c1",
+            "type": "TRANSFER_IN",
+            "category": "РџРµСЂРµРІРѕРґ",
+            "amount": 50000.0,
+            "description": "",
+            "date": "2026-01-13",
+            "counterparty": "Р№С†Сѓ"
+          }
+        ],
+        "budgets": {
+          "РўРµСЃС‚": 30000.0
+        }
+      }
+    }
+  ]
+}
